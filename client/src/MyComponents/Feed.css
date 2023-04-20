@@ -1,0 +1,77 @@
+
+.feed {
+    display: flex;
+    flex: 0.85;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+/* ----------------------------------------------------------- */
+
+/* FeedContainer.js */
+
+.feedContainer {
+    height: 260px;
+    /* max-width: 22%; */
+    max-width: 300px;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+
+.thumbnailImage {
+    border-radius: 10px;
+    max-height: 200px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.video__desc {
+    display: flex;
+}
+
+.channelImage {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 8px;
+}
+
+.heading {
+    flex-wrap: wrap;
+}
+
+.video__info {
+    font-size: small;
+}
+
+.other {
+    display: flex;
+    margin-top: -20px;
+}
+
+.other > * {
+    margin-right: 5px;
+}
+
+/* ----------------------------------------------------------- */
+
+@media (max-width: 600px) {
+    .feed {
+        margin-left: 15%;
+    }
+}
+
+/* @media (min-width: 600px) and (max-width: 900px) {
+    .feed {
+        background-color: aqua;
+    }
+} */
+
+
+@media (min-width: 800px) and (max-width: 1300px) {
+    .feed {
+        flex: 0.95;
+    }
+}
+
+
